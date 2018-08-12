@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: blog
-subtitle:
-description:
+title: 山外小楼
+subtitle: 前端攻略
+description: 我是萌新
 keywords:
-author: zhaoyue
-language: zh-Hans
+author: 萌新
+language: zh-CN
 timezone:
 
 # URL
