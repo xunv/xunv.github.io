@@ -3,7 +3,9 @@ title: vue中引入图片的方式
 date: 2018-08-16 14:11:14
 tags: vue
 ---
-## 在 template 的 img 标签等和 css 的背景图中
+## template和css中
+
+在 template 的 img 标签等和 css 的背景图中
 
 ```html
 <img class="logo-img" src="~@/assets/logo/logo.png" key="max-logo" />
@@ -15,7 +17,9 @@ background: url(~@/assets/dongdong.png) 4px 4px no-repeat;
 
 其中‘~’为的是让 webpack 识别这是一个路径，‘@’表示 webpack 中配置的路径别名，此处表示 src 文件夹
 
-## 在 js 中作为变量引入时，需要以 require 的方式引入
+## 在js中
+
+在 js 中作为变量引入时，需要以 require 的方式引入
 
 ```javascript
 default_avatar() {
