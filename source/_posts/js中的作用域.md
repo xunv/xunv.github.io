@@ -1,7 +1,7 @@
 ---
 title: 你不知道的JavaScript-第一部分
 date: 2018-08-22 20:08:24
-tags: 作用域
+tags: [作用域,闭包]
 ---
 
 > 本文转自[ZengTianShengZ](https://github.com/ZengTianShengZ/My-Blog)，您可以直接去原处阅览
