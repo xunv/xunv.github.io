@@ -6,6 +6,8 @@ tags:
 
 >文章出处：https://www.cnblogs.com/JRliu/p/9004304.html
 
+## 问题
+
 我们在使用 async/await 语法时，有时会这样用：
 
 ```javascript
@@ -32,6 +34,8 @@ function getId () {
 ```
 
 一眼看上去，应该是3秒种多一点就会 alert 出 'name:tony, id:123'，实际上却花费了5秒才出现提示框，她们是串行执行的！而我们想要的是并行执行，因为她们之间并没有依赖关系。串行执行只会白白增加无谓的等待时间！怎么解决呢？  
+
+## 解决
 
 我们先看 Promise 的语法：  
 
