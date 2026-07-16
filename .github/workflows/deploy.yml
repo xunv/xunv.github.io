@@ -1,10 +1,10 @@
 name: Deploy Hexo to GitHub Pages
 
 on:
-  # 每次推送到 hexo 源码分支时自动构建部署
+  # 每次推送到 main 源码分支时自动构建部署
   push:
     branches:
-      - hexo
+      - main
   # 允许在 Actions 页面手动触发
   workflow_dispatch:
 

@@ -1,5 +1,3 @@
-allowBuilds:
-  hexo-util: set this to true or false
 # 显式声明不批准任何依赖运行安装期构建脚本。
 # canvas 为原生模块(需系统级库)且站点生成不依赖其构建，保持忽略即可。
 # CI 与本地通过 --config.strictDepBuilds=false 让 install 在忽略脚本时仍正常返回。
