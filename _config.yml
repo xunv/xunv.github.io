@@ -5,15 +5,15 @@
 # Site
 title: 权重之下
 subtitle: 行到水穷处，坐看云起时
-description: 我是萌新
+description:
 keywords:
-author: 萌新
+author: 程小鱼
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://iyue.top
+url: https://iyue.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
