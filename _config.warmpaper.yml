@@ -55,7 +55,7 @@ profile:
       icon: website
     - name: 哔哩哔哩
       url: https://space.bilibili.com/28863004
-      icon: website
+      icon: bilibili
 
 # Post excerpt
 excerpt_link: 阅读全文
