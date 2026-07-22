@@ -1,0 +1,61 @@
+# Warmpaper Theme Configuration (博客侧覆盖，优先级高于 themes/warmpaper/_config.yml)
+# 这样改配置不动子模块，主题 git pull 更新永不冲突。
+
+# Navigation menu
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  About: /about
+
+# Table of Contents (right sidebar on post pages)
+toc:
+  enable: true
+  max_depth: 3
+  min_depth: 2
+  list_number: false
+
+# Math (LaTeX) rendering via MathJax v4.
+# 需换用支持 $...$ 透传的 Markdown 渲染器，当前用 hexo-renderer-marked，故关闭。
+math:
+  enable: false
+
+# Waline comment
+waline:
+  enable: false
+  serverURL: 'https://your-server-url'
+
+# Giscus comment (GitHub Discussions)
+giscus:
+  enable: false
+  repo: 'user/repo'
+  repo_id: ''
+  category: 'Announcements'
+  category_id: ''
+  mapping: 'pathname'
+  strict: '0'
+  reactions_enabled: '1'
+  emit_metadata: '0'
+  input_position: 'bottom'
+  lang: 'zh-CN'
+  theme_light: 'light'
+  theme_dark: 'dark'
+
+# Profile (shown on homepage above post list)
+profile:
+  avatar: /images/logo.svg
+  description: '行到水穷处，坐看云起时'
+  links:
+    - name: GitHub
+      url: https://github.com/xunv
+      icon: github
+    - name: 博客
+      url: https://iyue.top
+      icon: website
+
+# Post excerpt
+excerpt_link: 阅读全文
+
+# Footer
+copyright: '权重之下'
