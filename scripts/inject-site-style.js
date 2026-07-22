@@ -6,8 +6,13 @@ const MENU_LABELS = {
   About: '关于'
 };
 
-const HEAD_OVERRIDES =
-  '<style id="site-layout-stability">html { scrollbar-gutter: stable; }</style>';
+const HEAD_OVERRIDES = `<style id="site-layout-stability">
+  html { scrollbar-gutter: stable; }
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+  }
+</style>`;
 
 hexo.extend.filter.register('after_render:html', function (html) {
   let renderedHtml = html;
