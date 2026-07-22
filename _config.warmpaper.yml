@@ -53,6 +53,9 @@ profile:
     - name: 博客
       url: https://iyue.top
       icon: website
+    - name: 哔哩哔哩
+      url: https://space.bilibili.com/28863004
+      icon: website
 
 # Post excerpt
 excerpt_link: 阅读全文
